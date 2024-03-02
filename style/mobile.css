@@ -4,6 +4,8 @@
         width: 90%;
         flex-direction: column;
         height: auto;
+        position: absolute;
+        top: 5%;
     }
 
     section {
