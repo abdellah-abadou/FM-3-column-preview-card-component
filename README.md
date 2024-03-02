@@ -13,7 +13,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  -[Author](#Author)
+  - [Author](#Author)
 
 ## Overview
 
