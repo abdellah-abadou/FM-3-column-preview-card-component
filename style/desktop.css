@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+
+body {
+    font-size: 15px;
+    display: flex;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+div {
+    width: 80%;
+}
+
+.main-container {
+    margin-top: 40px;
+    width: 64%;
+    height: 62.5%;
+    display: flex;
+    background-color: var(--Transparent-white-paragraphs);
+    border-radius: 10px;
+}
+
+section {
+    width: calc(100%/3);
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    padding: 50px 18px 29px;
+}
+
+h2 {
+    color: var(--Very-light-gray);
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 2.7em;
+    padding-left: 18px;
+    padding-bottom: 23px;
+    text-transform: uppercase;
+}
+
+p {
+    color: var(--Very-light-gray);
+    line-height: 1.7em;
+    padding-left: 19px;
+    font-weight: 400;
+    opacity: 0.6;
+    width: 93%;
+    margin-bottom: 40%;
+}
+
+.button {
+    text-decoration: none;
+    background-color: var(--Very-light-gray);
+    padding: 15px 33px;
+    margin-left: 12px;
+    border-radius: 40px;
+}
+
+.sedans-section {
+    background-color: var(--Bright-orange);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.sedans-btn {
+    color: var(--Bright-orange);
+}
+
+.sedans-btn:hover {
+    border:  2px solid var(--Very-light-gray);
+    background-color: var(--Bright-orange);
+    color: var(--Very-light-gray);
+}
+
+.SUVs-section {
+    background-color: var(--Dark-cyan);
+}
+
+.suvs-btn {
+    color: var(--Dark-cyan);
+}
+
+.suvs-btn:hover {
+    background-color: var(--Dark-cyan);
+    border:  2px solid var(--Very-light-gray);
+    color: var(--Very-light-gray);
+}
+
+.Luxury-section {
+    background-color: var(--Very-dark-cyan);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.luxury-btn {
+    color: var(--Very-dark-cyan);
+}
+
+.luxury-btn:hover {
+    background-color: var(--Very-dark-cyan);
+    border:  2px solid var(--Very-light-gray);
+    color: var(--Very-light-gray);
+}
+
+@media only screen and (max-width: 1439px) {
+    .main-container {
+        height: 80%;
+        width: 90%;
+    }
+}

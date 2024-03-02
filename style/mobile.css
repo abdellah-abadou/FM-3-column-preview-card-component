@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+    
+    .main-container {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+    }
+
+    section {
+        width: 100%;
+        min-height: 400px;
+    }
+
+    figure {
+        padding-top: 30px;
+    }
+
+    p {
+        margin-bottom: 10%;
+    }
+
+    .sedans-section {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .Luxury-section {
+        border-radius: 0px 0px 10px 10px;
+    }
+}
